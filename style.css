@@ -1,0 +1,329 @@
+body {
+    font-family: 'Arial', sans-serif;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #f0f2f5;
+}
+
+.container {
+    display: flex;
+    
+    background:#313030;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    width: 400px;
+    background: #2c2c2c;
+    color: #fff;
+    padding: 30px;
+}
+
+.sidebar .profile {
+    text-align: center;
+}
+
+.sidebar .profile img {
+    width: 130px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.sidebar .profile h2 {
+    margin: 10px 0 5px;
+}
+
+.sidebar .profile p {
+    margin: 0 0 10px;
+}
+
+.sidebar .social a {
+    margin: 0 5px;
+    display: inline-block;
+}
+
+
+
+.sidebar .menu a {
+    text-align: center;
+    display: block;
+    padding: 10px 10px;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid #3d3d3d;
+    border-radius: 5px;
+}
+
+.sidebar .menu a:hover {
+
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+}
+.fluent--person-24-filled {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d2799d' d='M17.755 14a2.25 2.25 0 0 1 2.248 2.25v.918a2.75 2.75 0 0 1-.512 1.598c-1.546 2.164-4.07 3.235-7.49 3.235c-3.422 0-5.945-1.072-7.487-3.236a2.75 2.75 0 0 1-.51-1.596v-.92A2.25 2.25 0 0 1 6.253 14zM12 2.005a5 5 0 1 1 0 10a5 5 0 0 1 0-10'/%3E%3C/svg%3E");
+  }
+  .fluent-mdl2--page-solid {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2048 2048'%3E%3Cpath fill='%23d2799d' d='M1755 512h-475V37zm37 128v1408H128V0h1024v640z'/%3E%3C/svg%3E");
+  }
+  .file-icons--microsoft-project {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23d2799d' d='M291.593 13.486v50.542h204.495c8.788 0 15.912 7.124 15.912 15.913v347.875c0 8.788-7.124 15.912-15.912 15.912H291.593v54.786L0 446.909V65zm-96.76 212.215c.981-15.538-2.708-31.289-13.16-41.363c-12.438-11.991-20.73-14.091-56.289-12.25l-28.886 1.496v163.155h29.37V280.1c54.185 4.625 66.744-26.631 68.964-54.399m-33.756 0c-1.535 26.512-13.814 25.396-35.21 25.03v-49.298c24.047-.848 34.427 2.446 35.21 24.268m311.348-.143l-55.112 57.482l-57.61-57.482h43.073v-75.52H291.593v147.641l44.272-43.566l65.862 65.909s-64.46 62.87-65.989 62.87c-1.527 0-44.145-40.643-44.145-40.643v84.697h203.485V80.81H291.593v41.955h138.454v102.792z'/%3E%3C/svg%3E");
+  }
+  .el--blogger {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 1200'%3E%3Cpath fill='%23d2799d' d='M0 0v1200h1200V0zm641.742 219.792c115.163 9.225 182.107 82.968 190.065 177.254c6.186 48.52 4.496 84.54-2.563 111.035c65.691 2.152 142.468 31.339 147.363 137.328v104.298c-6.812 91.112-39.518 203.688-207.277 227.562l-280.744 1.025c-170.153 3.09-263.875-71.142-264.749-229.92l2.198-351.932c7.324-102.37 90.271-162.382 187.053-175.709l228.655-.952zM450.507 362.176c-98.028 15.913-102.874 126.92 0 140.624h186.102c98.028-15.913 102.874-126.921 0-140.624zM408.32 669.213c-100.919 15.533-102.489 141.578 3.516 154.614l341.82 1.172c100.061-15.401 99.777-141.28-3.589-154.614l-341.743-1.172z'/%3E%3C/svg%3E");
+  }
+  .ph--certificate-fill {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cpath fill='%23d2799d' d='M232 86.53V56a16 16 0 0 0-16-16H40a16 16 0 0 0-16 16v128a16 16 0 0 0 16 16h120v24a8 8 0 0 0 12 7l24-13.74L220 231a8 8 0 0 0 12-7v-62.53a51.88 51.88 0 0 0 0-74.94M128 144H72a8 8 0 0 1 0-16h56a8 8 0 0 1 0 16m0-32H72a8 8 0 0 1 0-16h56a8 8 0 0 1 0 16m88 98.21l-16-9.16a8 8 0 0 0-7.94 0l-16 9.16V172a51.88 51.88 0 0 0 40 0ZM196 160a36 36 0 1 1 36-36a36 36 0 0 1-36 36'/%3E%3C/svg%3E");
+  }
+  .mdi--contact-mail {
+    display: inline-block;
+    width: 2em;
+    height: 2em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23d2799d' d='M21 8V7l-3 2l-3-2v1l3 2m4-7H2a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h20a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2M8 6a3 3 0 0 1 3 3a3 3 0 0 1-3 3a3 3 0 0 1-3-3a3 3 0 0 1 3-3m6 12H2v-1c0-2 4-3.1 6-3.1s6 1.1 6 3.1m8-5h-8V6h8'/%3E%3C/svg%3E");
+  }
+.content {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+}
+
+.intro {
+    margin-bottom: 20px;
+}
+
+.intro h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.intro p {
+    margin: 10px 0;
+}
+
+.intro .buttons .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.skills .buttons .btn {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.intro .buttons .btn:hover {
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+}
+.skills .buttons .btn:hover {
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+}
+
+.services h2 {
+    margin-bottom: 20px;
+}
+
+.services .service {
+    margin-bottom: 10px;
+}
+
+.services .service h3 {
+    margin: 0;
+    padding: 10px;
+    background: #444;
+    border-radius: 5px;
+}
+#about-me {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #0e0e0e;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#about-me h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#about-me h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#about-me p, #about-me ul {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+#about-me ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#about-me .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about-me .btn:hover {
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+}
+.resume-container {
+    width: 90%;
+    max-width: 1200px;
+    background: #2c2c2c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#resume h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#resume p {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #bbb;
+}
+.btn:hover{
+    background: linear-gradient(110deg, #c50529 40%, #833556 60%);
+}
+
+.resume-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education, .skills {
+    width: 48%;
+}
+
+.education h3, .skills h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.timeline {
+    border-left: 2px solid #007bff;
+    padding-left: 20px;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.timeline-item .date {
+    position: absolute;
+    left: -60px;
+    top: 0;
+    font-size: 1em;
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.timeline-item .content {
+    background: #444;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.timeline-item h4 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.timeline-item p {
+    margin: 5px 0 0;
+    color: #bbb;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1em;
+    color: #fff;
+}
+
+.progress {
+    background: #444;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: #007bff;
+    padding: 5px 10px;
+    color: #fff;
+    text-align: right;
+    border-radius: 5px 0 0 5px;
+    white-space: nowrap;
+}
+.flip img{
+    width: 300px;
+    margin-right: 20px;
+}
+.pdf {
+    width: 100%;
+    aspect-ratio: 3 / 3;
+}
